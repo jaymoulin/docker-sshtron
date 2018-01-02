@@ -7,16 +7,6 @@ manifests:
       variant: v6
       os: linux
   -
-    image: jaymoulin/sshtron:$VERSION-arm64v8
-    platform:
-      architecture: arm64
-      os: linux
-  -
-    image: jaymoulin/sshtron:$VERSION-ppc64le
-    platform:
-      architecture: ppc64le
-      os: linux
-  -
     image: jaymoulin/sshtron:$VERSION-amd64
     platform:
       architecture: amd64
