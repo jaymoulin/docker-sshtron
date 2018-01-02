@@ -13,7 +13,7 @@ qemu-arm-static:
 	cp /usr/bin/qemu-arm-static .
 build: qemu-aarch64-static qemu-arm-static qemu-ppc64le-static
 	$(foreach arch,$(archs), \
-		cat Dockerfile | sed "s/FROM alpine/FROM ${arch}\/alpine/g" > .Dockerfile; \
+		cat Dockerfile | sed "s/FROM alpine/FROM ${arch}\/alpine/g" | sed "s/FROM golang/FROM ${arch}\/golang/g" > .Dockerfile; \
 		docker build -t jaymoulin/sshtron:${VERSION}-$(arch) -f .Dockerfile ${CACHE} .;\
 	)
 publish:
