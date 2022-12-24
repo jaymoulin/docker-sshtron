@@ -25,6 +25,11 @@ Run your container based on already compiled image
 # Spin up the container with always-restart policy
 $ docker run -t -d -p 2022:2022 --restart always --name sshtron jaymoulin/sshtron
 ```
+OR
+```sh
+# Spin up the container with always-restart policy
+$ docker run -t -d -p 2022:2022 --restart always --name sshtron ghcr.io/jaymoulin/sshtron
+```
 
 ## CVE-2016-0777
 
