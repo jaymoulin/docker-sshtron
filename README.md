@@ -1,6 +1,7 @@
-# ![SSHTron](https://cdn.rawgit.com/zachlatta/sshtron/master/logo.svg) - Docker image (Multiarch)
+> [!CAUTION]
+> As-of 2021, this product does not have a free support team anymore. If you want this product to be maintained, please support my work.
 
-DISCLAIMER: As-of 2021, this product does not have a free support team anymore. If you want this product to be maintained, please support on Patreon.
+# ![SSHTron](https://cdn.rawgit.com/zachlatta/sshtron/master/logo.svg) - Docker image (Multiarch)
 
 SSHTron is a multiplayer lightcycle game that runs through SSH. Just run the command below and you'll be playing in seconds:
 
